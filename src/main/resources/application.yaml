@@ -18,6 +18,7 @@ spring:
         # 출력된 SQL 쿼리를 보기 쉽게 포맷팅
         format_sql: true
         default_batch_fetch_size: 100
+    open-in-view: false # osiv
 
 logging:
   level:
